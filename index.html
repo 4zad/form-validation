@@ -42,25 +42,19 @@
                     <div id="form-title">
                         <h2>Sign Up</h2>
                     </div>
-                    <br>
-                    <br>
                     <input required="required" type="text" pattern="^[A-Z]{1}[a-zA-Z]*$" name="first-name" id="first-name"
                         placeholder="First Name" />
-                    <br>
                     <input required="required" type="text" pattern="^[A-Z]{1}[a-zA-Z]*$" name="last-name" id="last-name"
                         placeholder="Last Name" />
-                    <br>
                     <input required="required" type="text" name="username" id="username" minlength="6" placeholder="Username" />
-                    <br>
-                    <input required="required" type="password" name="password" id="password" minlength="6" maxlength="6"
-                        placeholder="Password" />
-                    <input required="required" type="password" name="confirm-password" id="confirm-password" minlength="6"
-                        maxlength="6" placeholder="Confirm Password" />
-                    <br>
+                    <div id="password-fields">
+                        <input required="required" type="password" name="password" id="password" minlength="6" maxlength="6"
+                            placeholder="Password" />
+                        <input required="required" type="password" name="confirm-password" id="confirm-password" minlength="6" maxlength="6"
+                            placeholder="Confirm Password" />
+                    </div>
                     <input required="required" type="email" name="email" id="email" placeholder="Email" />
-                    <br>
                     <input required="required" type="number" name="age" id="age" min="18" max="60" placeholder="Age" />
-                    <br>
                     <label for="education-level">Education Level</label><br>
                     <select required="required" name="education-level" id="education-level">
                         <option value="" disabled selected>- select -</option>
@@ -82,8 +76,7 @@
                             id="did-not-graduate" />
                         <label for="did-not-graduate" id="did-not-graduate-l">Did Not Graduate</label>
                     </div>
-                    <br>
-                    <br>
+                    <br><br>
                     <div id="form-buttons">
                         <input type="reset" name="clear" value="Clear">
                         <input type="submit" name="submit" value="Submit">
@@ -105,6 +98,5 @@
     </body>
 
 </html>
-
 
 
