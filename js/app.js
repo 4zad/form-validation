@@ -70,8 +70,22 @@ username = () => {
     return flag;
 }
 
+deleteChild = () => {
+    let parent = document.getElementById('panel')
+
+    child = parent.lastElementChild;
+    while (child) {
+        parent.removeChild(child);
+        child = parent.lastElementChild;
+    }
+}
+
 validate = (form) => {
     let flag = true;
+
+    //function is called to clear/empty the error panel
+    //this is to ensure panel is clean and easy to read for the user
+    deleteChild();
 
     //NOTE: The same flag varable is used for both password and username to make code less redundant. 
     //In the scenario where password does not follow the required criteria flag will become false. If 'flag' is assigned a value of 'false' before the username() function is called we do not want the 'flag' to accidentally be assigned the value of 'true' if the username() function returns 'true'. Thus, when the 'flag' is assigned a 'false' value through the password() function we will call the username() function, without assigning it's return value to the variable 'flag'. This will ensure the 'SUCCESS!' message is only printed through the insertErr() function when both password and username fields match the required criteria.
@@ -83,3 +97,6 @@ validate = (form) => {
 
     return flag;
 }
+
+
+
