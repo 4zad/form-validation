@@ -15,7 +15,7 @@
 ---
 ## Description
 
-A responsive, form validation website created through the use of vanilla HTML, CSS, and JavaScript. The form is set to validate a set of requirements, that I have created myself, for each form field to simulate registration forms and survey forms that are abundantly found on a multitude of websites on the web. The validation is done through the use of HTML attributes and checking for regular expression patterns through JavaScript. 
+A responsive, form validation website created through the use of vanilla HTML, CSS, and JavaScript. The form is set to validate a set of requirements, that I have created myself, for each form field to simulate registration forms and survey forms that are abundantly found on a multitude of websites on the web. The validation is done through the use of HTML attributes and checking for regular expression patterns through JavaScript. The JavaScript code utilizes concise, reusable, and well structured code, which adheres to object oriented programming principles, such as abstraction and modular programming.
 
 #### Inspiration
 
@@ -25,7 +25,7 @@ With the internet being so massive now, it is no surprise that it is filled with
 
 I decided to create web application in the form of a form (no pun intended). This application would have a basic set of criteria that would be coded into the HTML directly using the attributes of form elements and there would also be a more sophisticated set of criteria for the username and password that would show up in an error panel once the user attempts to submit the form (which would be done using JavaScript, the Document Object Model, and regular espressions). Furthermore, the form would not submit unless all the criteria required by the form is met. 
 
-There were 2 major reasons why I decide to split the form requirement handling between the HTML and JavaScript. One was that if each and every error message was to be displayed in the error panel, it would become very crowded; from a user experience perspective this would be horrid. The other was that using the pattern attribute with regular expressions in HTML alone simply gives the user the message, "Please match the requested format," without any detail as to what the actual format is; again, from a user experience perspective this would be horrid. By using JavaScript and the Document Object Model with regular espressions, I could insert the exact required format/criteria to the error panel. 
+There were 2 major reasons why I decide to split the form requirement handling between the HTML and JavaScript. One was that if each and every error message was to be displayed in the error panel, it would become very crowded; from a user experience perspective this would be horrid. The other was that using the pattern attribute with regular expressions in HTML alone simply gives the user the message, "Please match the requested format," without any detail as to what the actual format taht should be followed is; again, from a user experience perspective this would be horrid. By using JavaScript and the Document Object Model with regular espressions, I could insert the exact required format/criteria to the error panel. 
 
 Overall, this project would help me develop the necessary skills that enable me to create a whole array of different types of forms that exist on the web.
 
@@ -89,7 +89,11 @@ The project also required knowledge of:
 ---
 ## Workflow
 
+I began this project by deciding on a set of form fields that I would utilize and then defining what the requirements for each field would be. Once that was decided, I moved on to designing the actual UX/UI of the form validation app. By defining the requirements of each field and a design to follow before-hand, I attempted to mimic what development looks like on the job. Where UX/UI designers will typically create the design and supposed functionality and the developers, would translate that into an actual website/application. 
 
+Once it was time to actually begin coding, I researched and wrote out the HTML for the actual form, which included small requirements, sucha as the length, for each field. After this I tested my form to make sure everything was functioning properly, before I coded the rest of the form validation app (footer, error panel). Once that was complete, I began styling the app. I had decided on a simple, clear, legible, and functional design for the app before-hand, which I followed through with. For this project, my styling abilities were not the showcase and thus, I decided to keep the design simple and functional.
+
+Once the app was styled, it was time to add functionality to the error panel. I began by first creating a function in the 'app.js' file, which would mimic a 'main' function and would be called whenever a form is submitted. This function would return 'true', and let the form submission go through, if the password and username fields matched the required format/criteria and 'false' otherwise. I then went on to create other functions that utilized the Document Object Model (DOM) and regular expressions to check the username and password and ensure that they matched the required format/criteria. Finally, I created another set of functions that utilized the Document Object Model (DOM) to clear the error panel of previous error messages and display any new ones. Since this part of the project is what turned this project from a webpage to a web application, the completion of this script involved a lot of testing. Eventually, the form validation app passed the thorough testing and I was done!
 
 
 
