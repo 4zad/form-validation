@@ -63,7 +63,7 @@ Now that you have read the instructions, feel free to try out the form validatio
 ---
 ## Technologies
 
-The creation of this form application involved the use of various technologies, including:
+The creation of the form validation app involved the use of various technologies, including:
 
 - HTML5 (HyperText Markup Language)
 - CSS (Cascading Style Sheets)
