@@ -15,7 +15,7 @@
 ---
 ## Description
 
-A responsive, form validation website created through the use of vanilla HTML, CSS, and JavaScript. The form is set to validate a set of requirements, that I have created myself, for each form field to simulate registration forms and survey forms that are abundantly found on a multitude of websites on the web. The validation is done through the use of HTML attributes and checking for regular expression patterns through JavaScript. The JavaScript code utilizes concise, reusable, and well structured code, which adheres to object oriented programming principles, such as abstraction and modular programming.
+A responsive, form validation web application created through the use of vanilla HTML, CSS, JavaScript, and Document Object Model (DOM) fundamentals. The form is set to validate a set of requirements, that I have created myself, for each form field to simulate registration forms and survey forms that are abundantly found on a multitude of websites on the web. The validation is done through the use of HTML attributes and checking for regular expression patterns through JavaScript. The JavaScript code utilizes concise, reusable, and well structured code, which adheres to object oriented programming principles, such as abstraction and modular programming.
 
 #### Inspiration
 
