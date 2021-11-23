@@ -100,7 +100,7 @@ Once the app was styled, it was time to add functionality to the error panel. I 
 ---
 ## Author
 
-- Muhammad Ahmed (4zad) <dev.moahmed@gmail.com>
+- Muhammad Ahmed (4zad) <mahmed.4zad@gmail.com>
 
 
 
